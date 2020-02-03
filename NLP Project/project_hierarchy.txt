@@ -1,0 +1,20 @@
+NLP project
+
+**Notebooks folder:
+
+----cleansing.ipynb: extracting and cleaning all reviews from the original dataframe 
+----label_data_to_model.ipynb: labeling the reviews using textblob 
+----Random_forest_train_test: using 80% of reviews to train the Random Forest Classifier model and 20% to test it
+----EDA.ipynb: EDA & Visualization
+----**Data folder:
+------- cleaned_reviews_: dataframe that contains only clean reviews
+------- data_reviews_cleaned_: dataframe that contains the original dataset with cleaned Full reviews  
+------- reviews_labeles_sentiment: dataframe that contains the original dataframe and the label (sentiment) of each full review
+------- original_data: the original data provided 
+----**model folder:
+------- model.pickle: Random Forest Classifier model with accuracy 86.77% 
+
+**Python code: 
+----Random_forest_train_test.py: the python code for training and testing 
+
+**img folder: contains the saved plots 

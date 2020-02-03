@@ -1,0 +1,4 @@
+open 
+Notebooks\label_data_to_model.ipynb
+that will run the model, label the original dataframe and plot word cloud, pie charts..etc 
+
